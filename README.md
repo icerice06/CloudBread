@@ -1,11 +1,7 @@
 # CloudBread
 2학년 2학기 Capstone(캡스톤)
-![buger](img/Cloud_Bread.png)  
-
-
-![buger](img/develop.png)  
-
-![buger](img/main.png)&nbsp;
-![buger](img/Press.png)  
-
-![buger](img/diagram.png)  
+<img src="img/Cloud_Bread.png" alt="Cloud_Bread 이미지" width="300">
+<img src="img/develop.png" alt="develop 이미지" width="300">
+<img src="img/main.png" alt="main 이미지" width="300">
+<img src="img/Press.png" alt="Press 이미지" width="300">
+<img src="img/diagram.png" alt="diagram 이미지" width="300">
