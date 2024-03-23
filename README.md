@@ -1,6 +1,8 @@
 # CloudBread
-2학년 2학기 Capstone(캡스톤)  
 <img src="img/Cloud_Bread.png" alt="Cloud_Bread 이미지" width="100">  
+  
+2학년 2학기 Capstone(캡스톤)  
+
 ## 구현 형태
 * 공공의 이익을 위해 지역 홍보 서비스
 * 로드밸런싱을 활용한 고 과용성 서비스
