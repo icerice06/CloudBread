@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.follow-text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  white-space: nowrap;
+  pointer-events: none; /* 텍스트가 마우스 이벤트를 가로채지 않도록 함 */
+}

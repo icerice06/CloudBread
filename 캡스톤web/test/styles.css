@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 40px;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.60);
+}
+
+p{  
+    margin-left: 1%;
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+span{
+    color: #F4993B;
+}
+
+body{
+    background: #90D4D5;
+}
+
+/* 순위표 */
+.Ranking{
+    margin-top: 2%;
+    width: 400px;
+    height: 780px;
+    flex-shrink: 0;
+    border-radius: 0px 8px 8px 0px;
+    background: #FFF;
+}
+
+.Ranking-header{
+    margin-left: 3%;
+    padding-top: 5px;
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Ranking-Explanation{
+    margin-left: 3%;
+    padding-top: 5px;
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.numberList{
+    margin-top: 5px;
+    border-collapse: collapse;
+}
+.number{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 400px;
+    height: 41px;
+    flex-shrink: 0;
+}
+
+.light{
+    background: #F2F2F2;
+}
+
+.dark{
+    background: #E9E9E9;
+}
+
+td{
+    margin-left: 3%;
+    color: #4E85EE;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+main {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* 지도 */
+.map{
+    margin-top: 1.5%;
+    margin-left: 17%;
+    width: 617px;
+    height: 802px;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.00);
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+/* 지역 */
+.Area{
+    position: absolute;
+    top: 29.4px;
+    left: 178px;
+    width: 414.983px;
+    height: 712.713px;
+    flex-shrink: 0;
+}
+/* 서울 */
+.Seoul{
+    position: absolute;
+    top: 131.21px;
+    left: 80.55px;
+    width: 48.663px;
+    height: 37.748px;
+    flex-shrink: 0;
+}
+/* 강원도 */
+.Gangwon-do{
+    position: absolute;
+    top: 0px;
+    left: 120px;
+    width: 267.771px;
+    height: 226.183px;
+    flex-shrink: 0;
+}
+/* 경상북도 */
+.Gyeongsangbuk-do{
+    position: absolute;
+    top: 208.65px;
+    left: 201.88px;
+    width: 213.105px;
+    height: 225.561px;
+    flex-shrink: 0;
+}
+/* 경상남도 */
+.Gyeongsangnam-do{
+    position: absolute;
+    top: 384.16px;
+    left: 175.87px;
+    width: 196.714px;
+    height: 153.974px;
+    flex-shrink: 0;
+}
+/* 경상남도 섬*/
+.Gyeongsangnam-do_1{
+    position: absolute;
+    top: 523.81px;
+    left: 205.08px;
+    width: 30.244px;
+    height: 33.931px;
+    flex-shrink: 0;
+}
+/* 경상남도 섬2*/
+.Gyeongsangnam-do_2{
+    position: absolute;
+    top: 509.89px;
+    left: 284.6px;
+    width: 31.747px;
+    height: 47.479px;
+    flex-shrink: 0;
+}
+/* 충청북도 */
+.Chungcheongbuk-do{
+    position: absolute;
+    top: 193.37px;
+    left: 139.49px;
+    width: 165.505px;
+    height: 177.839px;
+    flex-shrink: 0;
+}
+/* 울산 */
+.Ulsan{
+    position: absolute;
+    top: 410.5px;
+    left: 343px;
+    width: 58.058px;
+    height: 57.841px;
+    flex-shrink: 0;
+}
+/* 인천 */
+.Incheon{
+    position: absolute;
+    top: 138.5px;
+    left: 61.4px;
+    width: 21.704px;
+    height: 36.71px;
+    flex-shrink: 0;
+}
+/* 인천섬 */
+.Incheon_1{
+    position: absolute;
+    top: 113.09px;
+    left: 31.31px;
+    width: 20.903px;
+    height: 32.651px;
+    flex-shrink: 0;
+}
+/* 대구 */
+.Daegu{
+    position: absolute;
+    top: 326.32px;
+    left: 269.33px;
+    width: 63.258px;
+    height: 101.015px;
+    flex-shrink: 0;
+}
+/* 세종 */
+.Sejong{
+    position: absolute;
+    top: 265.5px;
+    left: 123px;
+    width: 33.776px;
+    height: 48.376px;
+    flex-shrink: 0;
+}
+/* 광주 */
+.Gwangju{
+    position: absolute;
+    top: 476.53px;
+    left: 66.5px;
+    width: 45.062px;
+    height: 30.217px;
+    flex-shrink: 0;
+}
+/* 대전 */
+.Daejeon{
+    position: absolute;
+    top: 301.3px;
+    left: 136.88px;
+    width: 38.129px;
+    height: 44.888px;
+    flex-shrink: 0;
+}
+/* 충청남도 */
+.Chungcheongnam-do{
+    position: absolute;
+    top: 222.59px;
+    left: 3.9px;
+    width: 181.878px;
+    height: 153.804px;
+    flex-shrink: 0;
+}
+/* 충청남도 섬*/
+.Chungcheongnam-do1{
+    position: absolute;
+    top: 287.89px;
+    left: 26.7px;
+    width: 12.985px;
+    height: 27.506px;
+    flex-shrink: 0;
+}
+/* 전라남도 */
+.Jeollanam-do{
+    position: absolute;
+    top: 444.3px;
+    left: 18.4px;
+    width: 183.148px;
+    height: 170.716px;
+    flex-shrink: 0;
+}
+/* 전라남도 섬 */
+.Jeollanam-do1{
+    position: absolute;
+    top: 575.45px;
+    left: 0px;
+    width: 33.812px;
+    height: 31.457px;
+    flex-shrink: 0;
+}
+/* 경기도 */
+.Gyeonggi{
+    position: absolute;
+    top: 46px;
+    left: 51.09px;
+    width: 157.716px;
+    height: 200.284px;
+    flex-shrink: 0;
+}
+/* 전라북도 */
+.Jeollabuk-do{
+    position: absolute;
+    top: 350px;
+    left: 41.71px;
+    width: 174.897px;
+    height: 122.595px;
+    flex-shrink: 0;
+}
+/* 제주도 */
+.Jeju{
+    position: absolute;
+    top: 662.64px;
+    left: 7.1px;
+    width: 94.815px;
+    height: 50.075px;
+    flex-shrink: 0;
+}
+
+/* 선 */
+.Line{
+    pointer-events: none;
+    position: absolute;
+    top: 75.13px;
+    left: 218.76px;
+    width: 359.906px;
+    height: 474.56px;
+    flex-shrink: 0;
+    touch-action: none;
+}

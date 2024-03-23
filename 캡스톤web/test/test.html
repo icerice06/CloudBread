@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG Text Follow</title>
+</head>
+<body>
+  <svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+    <!-- 텍스트 요소 -->
+    <text id="follow-text" x="0" y="30" font-family="Arial" font-size="14" fill="black">Following Text</text>
+  </svg>
+
+  <!-- 외부 이미지 -->
+  <img src="your-image.jpg" alt="External Image" style="position: absolute; top: 50px; left: 50px; display: none;" id="external-image">
+
+  <script>
+    // 텍스트를 따라다니는 함수
+    function followText() {
+      var text = document.getElementById('follow-text');
+      var image = document.getElementById('external-image');
+
+      // 텍스트의 현재 위치 가져오기
+      var textRect = text.getBoundingClientRect();
+
+      // 이미지의 위치 업데이트
+      image.style.top = (textRect.top + window.scrollY) + 'px';
+      image.style.left = (textRect.left + window.scrollX) + 'px';
+    }
+
+    // 스크롤 및 창 크기 조정 이벤트에 따라 텍스트를 따라다니게 함
+    document.addEventListener('scroll', followText);
+    window.addEventListener('resize', followText);
+
+    // 페이지 로드시 초기 위치 설정
+    window.addEventListener('load', followText);
+
+    // 이미지를 표시하도록 변경
+    window.onload = function() {
+      var image = document.getElementById('external-image');
+      image.style.display = 'block';
+    };
+  </script>
+</body>
+</html>

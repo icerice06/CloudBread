@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 40px;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.60);
+    margin: 0px auto;
+}
+
+.home{
+    margin-right: 2%;
+    margin-top: 0.2%;
+    float: right;
+    box-sizing: border-box;
+}
+a {
+    color: black;
+    text-decoration: none;
+  }
+
+.logo{
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 1%;
+    float: left;
+    box-sizing: border-box;
+}
+span{
+    color: #F4993B;
+}
+
+body{
+    background: #FFE4BC;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 40px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text{
+    color: black;
+    font-size: 50px; 
+    font-family: Inter;
+    font-weight: 800; 
+    word-wrap: break-word;
+    display: flex;
+}
+
+.score{
+    color: black; 
+    font-size: 45px; 
+    font-family: Inter; 
+    font-weight: 800; 
+    word-wrap: break-word;
+}
+
+.Seoul_M{
+    width: 20%;
+    height: auto;
+}

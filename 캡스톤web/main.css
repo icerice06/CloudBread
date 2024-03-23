@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 40px;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.60);
+}
+
+p{  
+    margin-left: 1%;
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+span{
+    color: #F4993B;
+}
+
+body{
+    background: #90D4D5;
+}
+
+/* 순위표 */
+.Ranking{
+    margin-top: 2%;
+    width: 400px;
+    height: 780px;
+    flex-shrink: 0;
+    border-radius: 0px 8px 8px 0px;
+    background: #FFF;
+}
+
+.Ranking-header{
+    margin-left: 3%;
+    padding-top: 5px;
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Ranking-Explanation{
+    margin-left: 3%;
+    padding-top: 5px;
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.numberList{
+    margin-top: 5px;
+    border-collapse: collapse;
+}
+.number{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 400px;
+    height: 41px;
+    flex-shrink: 0;
+}
+
+.light{
+    background: #F2F2F2;
+}
+
+.dark{
+    background: #E9E9E9;
+}
+
+td{
+    margin-left: 3%;
+    color: #4E85EE;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+main {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* 지도 */
+.map{
+    margin-top: 1.5%;
+    margin-left: 17%;
+    position: relative;
+}
+
+/* 지역 */
+.Area{
+    position: absolute;
+    top: 29.4px;
+    left: 178px;
+    width: 414.983px;
+    height: 712.713px;
+    flex-shrink: 0;
+}
+path{
+    z-index: 0;
+}
+/* 서울 */
+.Seoul {
+    transform: translate(80.6px, 131px);
+    fill: #FFF;
+}
+.Seoul:hover {
+    fill: #E56F15;
+}
+/* 인천 */
+.Incheon {
+    transform: translate(61.4px, 138px);
+    fill: #FFF;
+}
+.Incheon-m:hover .Island{
+    fill: #0079c1;
+}
+/* 인천섬 */
+.Incheon_1 {
+    transform: translate(31.3px, 113px);
+    fill: #FFF;
+}
+
+/* 경기도 */
+.Gyeonggi {
+    transform: translate(51.1px, 45.7px);
+    fill: #FFF;
+}
+.Gyeonggi:hover {
+    fill: #004097;
+}
+
+/* 강원도 */
+.Gangwon-do {
+    transform: translate(120px, 0px);
+    fill: #FFF;
+}
+.Gangwon-do:hover {
+    fill: #25b9b4;
+}
+
+/* 충청남도 */
+.Chungcheongnam-do {
+    transform: translate(2.68px, 223px);
+    fill: #FFF;
+}
+.Chungcheongnam-do-m:hover .Island{
+    fill: #8c8c70;
+}
+/* 충청남도 섬*/
+.Chungcheongnam-do1 {
+    transform: translate(26.7px, 288px);
+    fill: #FFF;
+}
+
+/* 충청북도 */
+.Chungcheongbuk-do {
+    transform: translate(139px, 193px);
+    fill: #FFF;
+}
+.Chungcheongbuk-do:hover {
+    fill: #724598;
+}
+
+/* 경상남도 */
+.Gyeongsangnam-do {
+    transform: translate(176px, 384px);
+    fill: #FFF;
+}
+.Gyeongsangnam-do:hover {
+    fill: #f15a38;
+}
+.Gyeongsangnam-do-m:hover .Island{
+    fill: #f15a38;
+}
+/* 경상남도 섬*/
+.Gyeongsangnam-do_1 {
+    transform: translate(285px, 510px);
+    fill: #FFF;
+}
+/* 경상남도 섬2*/
+.Gyeongsangnam-do_2 {
+    transform: translate(205px, 524px);
+    fill: #FFF;
+}
+
+/* 경상북도 */
+.Gyeongsangbuk-do {
+    transform: translate(202px, 209px);
+    fill: #FFF;
+}
+.Gyeongsangbuk-do:hover {
+    fill: #0071bb;
+}
+.Gyeongsangbuk-do-m:hover .Island{
+    fill: #0071bb;
+}
+
+/* 전라남도 */
+.Jeollanam-do {
+    transform: translate(17.7px, 445px);
+    fill: #FFF;
+}
+.Jeollanam-do-m:hover .Island{
+    fill: #ffd325;
+}
+/* 전라남도 섬 */
+.Jeollanam-do1 {
+    transform: translate(0px, 575px);
+    fill: #FFF;
+}
+
+/* 전라북도 */
+.Jeollabuk-do {
+    transform: translate(41.7px, 350px);
+    fill: #FFF;
+}
+.Jeollabuk-do:hover {
+    fill: #64a70b;
+}
+
+/* 세종 */
+.Sejong {
+    transform: translate(122px, 266px);
+    fill: #FFF;
+}
+.Sejong:hover {
+    fill: #00A0C6;
+}
+
+/* 대전 */
+.Daejeon {
+    transform: translate(137px, 301px);
+    fill: #FFF;
+}
+.Daejeon:hover {
+    fill: #00ae4d;
+}
+
+/* 대구 */
+.Daegu {
+    transform: translate(270px, 326px);
+    fill: #FFF;
+}
+.Daegu:hover {
+    fill: #008837;
+}
+
+/* 울산 */
+.Ulsan {
+    transform: translate(344px, 411px);
+    fill: #FFF;
+}
+.Ulsan:hover {
+    fill: #008c95;
+}
+
+/* 부산 */
+.Busan {
+    transform: translate(321px, 460px);
+    fill: #FFF;
+}
+.Busan:hover {
+    fill: #E5007F;
+}
+
+/* 광주 */
+.Gwangju {
+    transform: translate(65.8px, 477px);
+    fill: #FFF;
+}
+.Gwangju:hover {
+    fill: #ef4123;
+}
+
+/* 제주도 */
+.Jeju {
+    transform: translate(7.1px, 663px);
+    fill: #FFF;
+}
+.Jeju:hover {
+    fill: #fa8c32;
+}
+
+/* 선 */
+.Line{
+    pointer-events: none;
+    position: absolute;
+    top: 75.13px;
+    left: 218.76px;
+    width: 359.906px;
+    height: 474.56px;
+    flex-shrink: 0;
+    touch-action: none;
+}
