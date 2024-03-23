@@ -1,2 +1,2 @@
 # CloudBread
-2학년 2하기 Capstone(캡스톤)
+2학년 2학기 Capstone(캡스톤)
