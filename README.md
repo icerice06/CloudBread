@@ -19,7 +19,7 @@
 
 web Design
 --------------
-<img src="img/main.png" alt="main 이미지" width="300">
+<img src="img/main.png" alt="main 이미지" width="300">&nbsp;
 <img src="img/Press.png" alt="Press 이미지" width="300">  
 
 server diagram
